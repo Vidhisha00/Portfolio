@@ -6,27 +6,37 @@ export const About = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "C++", "Java", "JavaScript", "TypeScript", "C", "GoLang"],
+      skills: ["Python", "C++", "Java", "JavaScript", "TypeScript", "C"],
       icon: Code
     },
     {
       title: "Web Technologies", 
-      skills: ["ReactJS", "Next.js", "Vue.js", "Angular", "jQuery", "Express.js", "Node.js", "Flask", "Django", "CSS", "HTML"],
+      skills: ["React.js", "Next.js", "Angular", "Express.js", "Node.js", "Flask", "Django", "CSS", "HTML"],
       icon: Palette
     },
     {
       title: "Cloud & DevOps",
-      skills: ["AWS", "GCP", "Azure", "Ansible", "Terraform", "Docker", "Kubernetes", "CI/CD Pipelines", "Jenkins"],
+      skills: ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "CI/CD Pipelines"],
       icon: Cloud
     },
     {
       title: "Databases & Big Data",
-      skills: ["SQL", "PostgreSQL", "MySQL", "AWS RDS", "MongoDB", "Redis", "DynamoDB", "Apache Spark", "Hadoop", "Parquet"],
+      skills: ["SQL", "PostgreSQL", "MySQL", "MongoDB", "Redis", "DynamoDB"],
       icon: Database
     },
     {
-      title: "AI Libraries",
-      skills: ["Pandas", "NumPy", "PyTorch", "Tensorflow", "Langchain", "Transformers", "Scikit-learn", "Matplotlib", "Seaborn"],
+      title: "Data Science",
+      skills: ["Pandas", "NumPy", "Langchain", "Scikit-learn", "Matplotlib", "Seaborn"],
+      icon: Zap
+    },
+    {
+      title: "Testing & QA",
+      skills: ["Software Verification/Validation", "Test Automation", "Unit Testing", "Functional Testing"],
+      icon: Zap
+    },
+    {
+      title: "Version Control & OS",
+      skills: ["Linux", "Windows", "Unix Command Line", "Git", "GitHub"],
       icon: Zap
     }
   ];
@@ -62,9 +72,11 @@ export const About = () => {
             About Me
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            I'm Vidhisha Amle, a passionate software engineer currently pursuing my Master's in Computer Software Engineering 
-            at Arizona State University. With hands-on experience in full-stack development, cloud technologies, 
-            and AI, I am passionate about building innovative solutions that make a real impact.
+            I'm a software engineer currently pursuing my Master's in Software Engineering 
+            at Arizona State University. With hands-on experience in full-stack development, cloud-native systems, and AI-driven applications,
+            I love building scalable systems, demonstrated through a real-time collaborative IDE with automated Kubernetes scaling and 
+            a high-performance Redis server capable of handling concurrent clients with persistent storage. Currently, I am actively seeking Spring 2026 Internship and Full-time opportunities starting in June 2026 
+            where I can get a chance to showcase my passion for designing and delivering scalable, high-performance software solutions.
           </p>
         </div>
 
