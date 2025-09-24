@@ -34,16 +34,9 @@ export const Home = () => {
                 Vidhisha Amle
               </h1>
 
-              <h3 className="text-2xl md:text-3xl font-medium opacity-90 mb-4">
-                Software Engineer &<br/>
-                a Graduate Student
+              <h3 className="text-2xl md:text-3xl font-medium opacity-80 mb-4">
+                Software Engineer & a Graduate Student
               </h3>
-              
-              <p className="text-lg md:text-xl leading-relaxed opacity-80 text-justify">
-                Currently pursuing Master's in Software Engineering at Arizona State University. 
-                Passionate about building innovative solutions and creating meaningful digital experiences through 
-                full-stack development, cloud technologies, and AI.
-              </p>
             </div>
 
             {/* Resume Button */}
@@ -52,7 +45,7 @@ export const Home = () => {
                 size="lg" 
                 variant="secondary" 
                 className="bg-white text-primary hover:bg-white/90"
-                onClick={() => window.open('https://drive.google.com/file/d/1aiSk5illopggc7SBxlLA1hgBIBU8Ii8R/view?usp=sharing', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1Ze6ObLBhbbSJTBnT9A-KbPk7ws50pYXQ/view?usp=sharing', '_blank')}
               >
                 <svg className="mr-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
