@@ -19,7 +19,7 @@ export const Contact = () => {
             <div className="flex flex-col items-center">
               <Mail className="h-8 w-8 mb-4" style={{ color: '#bcd4e6' }} />
               <h3 className="font-semibold text-primary mb-2"><a 
-                href="mailto:vidhishamle@gmail.com" 
+                href="mailto:vidhishaamle@gmail.com" 
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 Email
