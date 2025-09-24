@@ -46,7 +46,7 @@ export const Navigation = () => {
             <a href="https://linkedin.com/in/vidhisha-amle/" className="text-muted-foreground hover:text-foreground transition-colors">
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="mailto:vidhishamle@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
+            <a href="mailto:vidhishaamle@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
               <Mail className="h-5 w-5" />
             </a>
           </div>
